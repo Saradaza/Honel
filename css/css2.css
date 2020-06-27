@@ -1,0 +1,338 @@
+body{
+    padding: 10px;
+}
+.fondo{
+    position: absolute;
+    z-index: 1;
+    background-color:grey;
+    width: 50%;
+    height: 500px;
+}
+
+.blanco{
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 150px;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+}
+.verde{
+    position: absolute;
+    z-index: 3;
+    background-color: green;
+    left: 95px;
+    top: 250px;
+    width: 200px;
+    height: 100px;
+    opacity: 0.9;
+}
+.morado{
+    position: absolute;
+    z-index: 4;
+    background-color: purple;
+    left: 45px;
+    top: 200px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body{
+            padding: 10px;
+        }
+        .centrar{
+            display: flex;
+            justify-content: center;
+        }
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra2").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=40){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra3").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=60){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra4").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=70){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra5").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=65){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra6").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=70){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra7").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra8").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=70){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra9").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=80){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra10").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=65){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra11").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=70){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra12").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=80){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra13").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=70){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra14").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=40){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra15").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=20){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra16").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra17").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra18").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra19").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=60){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra20").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra21").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
+
+        $("#btn").click(function(){
+            var progreso = 0;
+            var intervalo = setInterval(function(){
+                progreso = progreso + 5;
+                $("#barra22").css("width", progreso +
+                "%").attr("aria-valuenow",
+                progreso).text(progreso+ "%");
+                if(progreso>=50){
+                    clearInterval(intervalo);
+                }
+            },100);
+        });
